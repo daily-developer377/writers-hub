@@ -1,0 +1,112 @@
+ <!-- <section class="w3l-serices-6 py-5" id="services1">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-content text-center">
+        <h6 class="title-subhny text-center">Reasons Why</h6>
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">We're trusted by clients</h3>
+      </div>
+      <div class="grids-area-hny text-center row mt-lg-4">
+        <div class="col-lg-4 col-md-6 grids-feature">
+          <div class="area-box icon-blue">
+            <span class="fas fa-paint-brush"></span>
+            <h4><a href="#feature" class="title-head">Statement of Purpose (SOP)</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed et dolor
+              amet.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
+          <div class="area-box icon-pink">
+            <span class="fas fa-chess-queen"></span>
+            <h4><a href="#feature" class="title-head">Strategy</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed dolor et
+              amet.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div class="area-box icon-yellow">
+            <span class="fas fa-bullhorn"></span>
+            <h4><a href="#feature" class="title-head">Marketing</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed dolor et
+              amet.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+          <div class="area-box icon-yellow">
+            <span class="fas fa-users"></span>
+            <h4><a href="#feature" class="title-head">
+              Consulation</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed dolor et
+              amet.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+          <div class="area-box icon-yellow">
+            <span class="fas fa-video"></span>
+            <h4><a href="#feature" class="title-head">Video Production</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed dolor et
+              amet.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
+          <div class="area-box icon-yellow">
+            <span class="fas fa-layer-group"></span>
+            <h4><a href="#feature" class="title-head">
+              Development</a></h4>
+            <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed dolor et
+              amet.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- top services sections -->
+  <section class="w3l-bottom-grids-6 py-5" id="services">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-content text-center">
+        <!-- <h6 class="title-subhny text-center">Reasons Why</h6> -->
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">Our services include</h3>
+      </div>
+      <div class="grids-area-hny text-center row mt-lg-4">
+        <div class="col-lg-6 col-md-6 grids-feature">
+          <div class="area-box icon">
+            <!-- <span class="fas fa-laptop icon-red"></span> -->
+            <h4><a href="#feature" class="title-head">Initial consultation</a></h4>
+            <p>Our writers will have a one-on-one conversation with you to understand your background, achievements, and
+              aspirations.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 grids-feature mt-md-0 mt-4">
+          <div class="area-box icon">
+            <!-- <span class="fas fa-rocket icon-blue"></span> -->
+            <h4><a href="#feature" class="title-head">SOP writing</a></h4>
+            <p>Our experienced writers will craft a compelling SOP that reflects your unique qualities and showcases
+              your strengths.</p>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div class="area-box icon">
+            <!-- <span class="fas fa-chart-pie icon-yellow"></span> -->
+            <h4><a href="#feature" class="title-head">Editing and proofreading</a></h4>
+            <p>Our editors will carefully review your SOP to ensure that it is error-free, clear, and concise.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div class="area-box icon">
+            <!-- <span class="fas fa-chart-pie icon-yellow"></span> -->
+            <h4><a href="#feature" class="title-head">Revisions</a></h4>
+            <p>We offer unlimited revisions to ensure that you are completely satisfied with the final product.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
