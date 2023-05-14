@@ -18349,7 +18349,7 @@ ul.w3l-right-book li span {
 /*--//blog-grid-info--*/
 /*--/w3l-content-3--*/
 .w3l-content-3 {
-  background: url(../images/3.jpg) no-repeat center;
+  /* background: url(../images/3.jpg) no-repeat center; */
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -18358,7 +18358,8 @@ ul.w3l-right-book li span {
 
 .w3l-content-3::before {
   content: "";
-  background: rgb(0 0 0 / 65%);
+  /* background: rgb(0 0 0 / 65%); */
+  background: white;
   position: absolute;
   top: 0;
   bottom: 0;
