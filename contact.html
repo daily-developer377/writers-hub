@@ -168,23 +168,23 @@ Author URL: http://w3layouts.com
             <form action="" class="signin-form" id="submit-form">
               <div class="form-grids">
                 <div class="form-input" data-aos="fade-down">
-                  <input type="text" name="Name" placeholder="Enter your name *" required="" />
+                  <input type="text" id="name" name="Name" placeholder="Enter your name *" required="" />
                 </div>
                 <div class="form-input" data-aos="fade-down">
-                  <input type="text" name="Subject" placeholder="Enter subject " required />
+                  <input id="subject" type="text" name="Subject" placeholder="Enter subject " required />
                 </div>
                 <div class="form-input" data-aos="fade-up">
-                  <input type="email" name="Email" placeholder="Enter your email *" required />
+                  <input id="email" type="email" name="Email" placeholder="Enter your email *" required />
                 </div>
                 <div class="form-input" data-aos="fade-up">
-                  <input type="text" name="Phone" placeholder="Enter your Phone Number *" required />
+                  <input id="phoneNumber" type="text" name="Phone" placeholder="Enter your Phone Number *" required />
                 </div>
               </div>
               <div class="form-input">
-                <textarea name="Message" placeholder="Type your query here" required=""></textarea>
+                <textarea id="message" name="Message" placeholder="Type your query here" required=""></textarea>
               </div>
               <div class="text-center mt-3">
-                <button class="btn btn-style btn-primary" type="submit">Submit Now</button>
+                <button class="btn btn-style btn-primary" type="submit" onclick="gotowhatsapp()">Submit Now</button>
               </div>
             </form>
           </div>
@@ -195,8 +195,8 @@ Author URL: http://w3layouts.com
     </div>
   </div>
   <!-- whats app bttn -->
-  <a href="https://wa.me/+916282134768?text=Hello, could you please provide me with more information about Writer's Hub" class="float"
-    data-action="share/whatsapp/share" target="_blank"> <i class="fa fa-whatsapp my-float"></i></a>
+  <a href="https://wa.me/+916282134768?text=Hello, could you please provide me with more information about Writer's Hub"
+    class="float" data-action="share/whatsapp/share" target="_blank"> <i class="fa fa-whatsapp my-float"></i></a>
   <!-- end whats app btn -->
 
   <!-- //contact-section -->
@@ -361,6 +361,28 @@ Author URL: http://w3layouts.com
       })
     })
   </script>
+  <!-- for whats app submission -->
+  +
+  <script>
+    function gotowhatsapp() {
+
+      var name = document.getElementById("name").value;
+      var subject = document.getElementById("subject").value;
+      var email = document.getElementById("email").value;
+      var number = document.getElementById("phoneNumber").value;
+      var message = document.getElementById("message").value;
+
+      var url = "https://wa.me/918592054437?text="
+        + "Name: " + name + "%0a"
+        + "Subject: " + subject + "%0a"
+        + "Email: " + email + "%0a"
+        + "Number: " + number + "%0a"
+        + "Message: " + message;
+
+      window.open(url, '_blank').focus();
+    }
+  </script>
+  <!-- end whats app submission -->
 
 
 </body>
