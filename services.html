@@ -387,21 +387,22 @@ Author URL: http://w3layouts.com
           <!-- <label class="form-label">Types of SOP Required</label> -->
           <div class="form-input" data-aos="fade-up">
             <label class="form-label" for="reason">Types of SOP Required</label><br>
-            <select style="background-color: #f0f6ff; height: 60px; border-color:  rgba(130, 115, 252, .05);" class="custom-select border-0" aria-label=".form-select-lg example" name="Types of SOP required" required>
-              <option value="--"  disabled>Choose --</option>
+            <select id="typeOfSop" style="background-color: #f0f6ff; height: 60px; border-color:  rgba(130, 115, 252, .05);"
+              class="custom-select border-0" aria-label=".form-select-lg example" name="Types of SOP required" required>
+              <option value="--" disabled>Choose --</option>
               <option value="Admission SOP">Admission SOP</option>
               <option value="Visa SOP">Visa SOP</option>
               <option value="Scholarship SOP">Scholarship SOP</option>
               <option value="Personal Statement">Personal Statement</option>
             </select>
           </div>
-          
+
         </div>
         <!-- <div class="form-input">
           <textarea name="Message" placeholder="Type your query here" required=""></textarea>
         </div> -->
         <div class="text-center mt-3">
-          <button class="btn btn-style btn-primary" type="submit">Submit Now</button>
+          <button class="btn btn-style btn-primary" type="submit" onclick="gotowhatsappSer()">Submit Now</button>
         </div>
       </form>
     </div>
@@ -512,6 +513,34 @@ Author URL: http://w3layouts.com
     });
   </script>
   <!--//MENU-JS-->
+  <!-- for whats app submission -->
+  +
+  <script>
+    function gotowhatsappSer() {
+      console.log("clicked")
+
+      var name = document.getElementById("name").value;
+      var number = document.getElementById("number").value;
+      var email = document.getElementById("email").value;
+      var city = document.getElementById("city").value;
+      var country = document.getElementById("country").value;
+      var course = document.getElementById("course").value;
+      var link = document.getElementById("link").value;
+      var typeOfSop = document.getElementById("typeOfSop").options[document.getElementById("typeOfSop").selectedIndex].value;
+      var url = "https://wa.me/918592054437?text="
+        + "Name : " + name + "%0a"
+        + "Number : " + number + "%0a"
+        + "Email : " + email + "%0a"
+        + "City And State : " + city + "%0a"
+        + "Which country are you applying for : " + country + "%0a"
+        + "Which program and course are you applying for : " + course + "%0a"
+        + "Course Link : " + link + " %0a"
+        + "Type Of Sop : " + typeOfSop ;
+
+      window.open(url, '_blank').focus();
+    }
+  </script>
+  <!-- end whats app submission -->
 
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- ajax form-->
