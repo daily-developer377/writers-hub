@@ -58,7 +58,7 @@
                 <a class="nav-link" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://blog-kenkarate.vercel.app/">Blog</a>
+                <a class="nav-link" href="https://writerblog.netlify.app/">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -303,7 +303,7 @@
               engaging content, our blog posts will help drive traffic to your site and establish you as an expert in
               your field.</p>
             <p class="lead text-justify pb-3">
-              Contact us today to learn more about how we can help you achieve your content goals!<br>provide email id , phone number to - +91 6282134768
+              Contact us today to learn more about how we can help you achieve your content goals!<br>Call Us - +91 6282134768
             </p>
           </div>
         </div>
@@ -358,7 +358,7 @@
                 style="background-color: #f0f6ff; height: 60px; border-color:  rgba(130, 115, 252, .05);"
                 class="custom-select border-0" aria-label=".form-select-lg example" name="Types of SOP required"
                 required>
-                <option value="--" disabled>Choose --</option>
+                <option value="None" selected disabled>Select </option>
                 <option value="Admission SOP">Admission SOP</option>
                 <option value="Visa SOP">Visa SOP</option>
                 <option value="Scholarship SOP">Scholarship SOP</option>
@@ -522,6 +522,7 @@
         },
         error: function (err) {
           alert("Something Error")
+          console.log(err)
 
         }
       })
