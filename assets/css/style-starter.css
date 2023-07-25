@@ -18074,8 +18074,9 @@ a.navbar-brand img {
 }
 
 .w3l-banner-content h3 {
-  font-size: 52px;
-  line-height: 62px;
+  /* font-size: 52px; */
+  font-size: 40px;
+  /* line-height: 62px; */
   font-weight: 800;
 }
 
@@ -18530,7 +18531,9 @@ ul.w3l-right-book li span {
 
 /*--/w3l-inner-page--*/
 .breadcrumb-bg {
-  background: url(../images/2.jpg) no-repeat top;
+  /* background: url(../images/2.jpg) no-repeat top; */
+  background: url(../images/banner-client.jpg) no-repeat top;
+  background-position: center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
